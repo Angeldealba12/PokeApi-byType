@@ -12,7 +12,7 @@ import PokemonInfo from "./PokemonInfo"
            res => res.json())
 
            setName(res.name)
-           setImg(res.sprites.front_default)
+           setImg(res.sprites.other.dream_world.front_default)
        } 
        logic()
     }, [url])

@@ -29,10 +29,14 @@ function App() {
   
   return (
     <div className="App">
-      <header className="App-header">
+        <div className="main-container">
+        <div className ="child-01"> 
         <SearchBox onSearch={handleSearch}/>
-        {list}
-      </header>
+        </div> 
+        <div className="child-02">
+        {list} 
+        </div>
+        </div>
     </div>
   );
 }

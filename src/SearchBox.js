@@ -4,7 +4,8 @@ const SearchBox = ({ onSearch }) => {
     const [value, setValue] = useState("");
 
     return (
-        <div>
+        <div className="search-box">
+            <div className="logo"></div>
             <input value={value} 
             onChange={(e) => 
                 setValue(e.target.value)} />

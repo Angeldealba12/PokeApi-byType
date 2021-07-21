@@ -1,10 +1,9 @@
 
-
 const PokemonInfo = ( { name, img } ) => {  
     return(
-        <div>
-            <p>{ name }</p>
+        <div className="pokemon-card">        
             <img alt={name} src={img}/>
+            <p>{ name }</p>
         </div>
     )
 }
